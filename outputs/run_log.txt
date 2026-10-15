@@ -1,0 +1,8 @@
+Loaded hw3.data.carry.FX.dly.xlsx sheet=Data rows=2981 1999-01-01..2010-06-04 layout_verified=True
+Computed vs workbook returns: max abs diff = 2.220e-16; negating raw-quote returns would err by up to 0.00303
+Weight validation passed for all 12 strategies on every day (counts, signs, +1/-1 sums, top/bottom-k).
+Best baseline: 3M-K3-EQ (avg rank 1.333)
+Part (c) candidate conditioning variable: AUD3M
+Part (d) sample 2000-01-04..2010-06-04; best conditioned: AY3M-cond
+Part (e) sample 2000-01-20..2010-06-04
+Manual reconciliation 3M-K3-EQ 2008-10-24->2008-10-27: manual -0.0230153417 pipeline -0.0230153417

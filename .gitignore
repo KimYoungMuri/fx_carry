@@ -1,0 +1,8 @@
+.venv/
+.mplcache/
+.pdfcheck/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+/hw3*.pdf

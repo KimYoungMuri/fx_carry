@@ -1,0 +1,13 @@
+,days,long_count_ok,short_count_ok,long_sum_ok,short_sum_ok,longs_carry_ge_shorts,longs_are_top_k,shorts_are_bottom_k,all_ok
+1M-K2-EQ,2981,True,True,True,True,True,True,True,True
+1M-K2-RANK,2981,True,True,True,True,True,True,True,True
+1M-K2-PROP,2981,True,True,True,True,True,True,True,True
+1M-K3-EQ,2981,True,True,True,True,True,True,True,True
+1M-K3-RANK,2981,True,True,True,True,True,True,True,True
+1M-K3-PROP,2981,True,True,True,True,True,True,True,True
+3M-K2-EQ,2981,True,True,True,True,True,True,True,True
+3M-K2-RANK,2981,True,True,True,True,True,True,True,True
+3M-K2-PROP,2981,True,True,True,True,True,True,True,True
+3M-K3-EQ,2981,True,True,True,True,True,True,True,True
+3M-K3-RANK,2981,True,True,True,True,True,True,True,True
+3M-K3-PROP,2981,True,True,True,True,True,True,True,True

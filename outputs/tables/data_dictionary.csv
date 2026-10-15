@@ -1,0 +1,46 @@
+column,content,used_as,units,missing
+EUR,"EUR spot, quoted USD per EUR",USD per EUR (as quoted),price,0
+JPY,"JPY spot, quoted JPY per USD",inverted to USD per JPY,price,0
+GBP,"GBP spot, quoted USD per GBP",USD per GBP (as quoted),price,0
+CAD,"CAD spot, quoted CAD per USD",inverted to USD per CAD,price,0
+AUD,"AUD spot, quoted USD per AUD",USD per AUD (as quoted),price,0
+NZD,"NZD spot, quoted USD per NZD",USD per NZD (as quoted),price,0
+CHF,"CHF spot, quoted CHF per USD",inverted to USD per CHF,price,0
+NOK,"NOK spot, quoted NOK per USD",inverted to USD per NOK,price,0
+SEK,"SEK spot, quoted SEK per USD",inverted to USD per SEK,price,0
+EUR ROR,"workbook 1-day return, long EUR vs USD",cross-check only,decimal,1
+JPY ROR,"workbook 1-day return, long JPY vs USD",cross-check only,decimal,1
+GBP ROR,"workbook 1-day return, long GBP vs USD",cross-check only,decimal,1
+CAD ROR,"workbook 1-day return, long CAD vs USD",cross-check only,decimal,1
+AUD ROR,"workbook 1-day return, long AUD vs USD",cross-check only,decimal,1
+NZD ROR,"workbook 1-day return, long NZD vs USD",cross-check only,decimal,1
+CHF ROR,"workbook 1-day return, long CHF vs USD",cross-check only,decimal,1
+NOK ROR,"workbook 1-day return, long NOK vs USD",cross-check only,decimal,1
+SEK ROR,"workbook 1-day return, long SEK vs USD",cross-check only,decimal,1
+USD ROR,USD return (identically 0),cross-check only,decimal,1
+EUR 1M,EUR 1M interest rate,carry ranking + daily accrual (1M versions),% per annum (converted to decimal),0
+JPY 1M,JPY 1M interest rate,carry ranking + daily accrual (1M versions),% per annum (converted to decimal),0
+GBP 1M,GBP 1M interest rate,carry ranking + daily accrual (1M versions),% per annum (converted to decimal),0
+CAD 1M,CAD 1M interest rate,carry ranking + daily accrual (1M versions),% per annum (converted to decimal),0
+AUD 1M,AUD 1M interest rate,carry ranking + daily accrual (1M versions),% per annum (converted to decimal),0
+NZD 1M,NZD 1M interest rate,carry ranking + daily accrual (1M versions),% per annum (converted to decimal),0
+CHF 1M,CHF 1M interest rate,carry ranking + daily accrual (1M versions),% per annum (converted to decimal),0
+NOK 1M,NOK 1M interest rate,carry ranking + daily accrual (1M versions),% per annum (converted to decimal),0
+SEK 1M,SEK 1M interest rate,carry ranking + daily accrual (1M versions),% per annum (converted to decimal),0
+USD 1M,USD 1M interest rate,carry ranking + daily accrual (1M versions),% per annum (converted to decimal),0
+EUR 3M,EUR 3M interest rate,carry ranking + daily accrual (3M versions),% per annum (converted to decimal),0
+JPY 3M,JPY 3M interest rate,carry ranking + daily accrual (3M versions),% per annum (converted to decimal),0
+GBP 3M,GBP 3M interest rate,carry ranking + daily accrual (3M versions),% per annum (converted to decimal),0
+CAD 3M,CAD 3M interest rate,carry ranking + daily accrual (3M versions),% per annum (converted to decimal),0
+AUD 3M,AUD 3M interest rate,carry ranking + daily accrual (3M versions),% per annum (converted to decimal),0
+NZD 3M,NZD 3M interest rate,carry ranking + daily accrual (3M versions),% per annum (converted to decimal),0
+CHF 3M,CHF 3M interest rate,carry ranking + daily accrual (3M versions),% per annum (converted to decimal),0
+NOK 3M,NOK 3M interest rate,carry ranking + daily accrual (3M versions),% per annum (converted to decimal),0
+SEK 3M,SEK 3M interest rate,carry ranking + daily accrual (3M versions),% per annum (converted to decimal),0
+USD 3M,USD 3M interest rate,carry ranking + daily accrual (3M versions),% per annum (converted to decimal),0
+AY1wk,"AUD/JPY option implied vol, 1-week tenor",conditioning variable,vol points (% p.a.),0
+AY3M,"AUD/JPY option implied vol, 3-month tenor",conditioning variable,vol points (% p.a.),0
+AY6M,"AUD/JPY option implied vol, 6-month tenor",conditioning variable,vol points (% p.a.),0
+JPY3M,"USD/JPY option implied vol, 3-month tenor",conditioning variable,vol points (% p.a.),0
+AUD3M,"AUD/USD option implied vol, 3-month tenor",conditioning variable,vol points (% p.a.),0
+VIX,CBOE VIX index (30-day S&P 500 implied vol),conditioning variable,vol points (% p.a.),108

@@ -1,0 +1,245 @@
+{
+  "audit": {
+    "file": "hw3.data.carry.FX.dly.xlsx",
+    "sheets": {
+      "Data": [
+        2982,
+        49
+      ]
+    },
+    "sheet": "Data",
+    "header_row_excel": 1,
+    "layout_verified": true,
+    "input_sorted": true,
+    "duplicate_dates_dropped": 0,
+    "rows": 2981,
+    "rows_before_dedup": 2981,
+    "start": "1999-01-01",
+    "end": "2010-06-04",
+    "weekday_counts": {
+      "0": 596,
+      "1": 596,
+      "2": 596,
+      "3": 596,
+      "4": 597
+    },
+    "calendar_gaps": {
+      "1": 2384,
+      "3": 596
+    },
+    "missing": {
+      "EUR ROR": 1,
+      "JPY ROR": 1,
+      "GBP ROR": 1,
+      "CAD ROR": 1,
+      "AUD ROR": 1,
+      "NZD ROR": 1,
+      "CHF ROR": 1,
+      "NOK ROR": 1,
+      "SEK ROR": 1,
+      "USD ROR": 1,
+      "VIX": 108
+    }
+  },
+  "n_vix_missing": 108,
+  "best_baseline": "3M-K3-EQ",
+  "k3_beats_k2_count": 6,
+  "candidate_c": "AUD3M",
+  "best_d": "AY3M-cond",
+  "d_start": "2000-01-04",
+  "d_end": "2010-06-04",
+  "e_start": "2000-01-20",
+  "e_end": "2010-06-04",
+  "example_date": "2007-06-29",
+  "example_next": "2007-07-02",
+  "last_signal_date": "2010-06-03",
+  "recon": {
+    "t": "2008-10-24",
+    "t1": "2008-10-27",
+    "manual": -0.023015341744938796,
+    "pipeline": -0.0230153417449388
+  },
+  "rv_iv": {
+    "corr_level_RV_AY1wk": 0.8979237892118028,
+    "corr_level_RV_AY3M": 0.8666005505347296,
+    "mean_AY3M_minus_RV21": -0.8041951119911631,
+    "mean_AY1wk_minus_RV21": 0.2164314420628911,
+    "corr_signal_RV_vs_best_IV": 0.6502724251912975,
+    "agreement_RV_vs_best_IV": 0.8670114517916513,
+    "leadlag_corr_dRV_t_vs_dIV_t-lag": {
+      "-5": 0.004926074617233454,
+      "-4": 0.02815374979248409,
+      "-3": 0.009127776967151786,
+      "-2": 0.052071167910779544,
+      "-1": 0.055037647087599326,
+      "0": 0.1860620435668835,
+      "1": 0.13589777782180457,
+      "2": 0.11567393359019142,
+      "3": 0.13304918338380664,
+      "4": 0.11902682570221566,
+      "5": 0.09159280055678141
+    }
+  },
+  "sens": {
+    "best_if_usd_excluded": "3M-K3-EQ",
+    "best_act365": {
+      "ann_arith_mean": 0.06353127410392798,
+      "ann_geo_return": 0.06027370374102481,
+      "sharpe": 0.6360142323399843,
+      "max_drawdown": -0.317072409340707
+    },
+    "best_act360": {
+      "ann_arith_mean": 0.06412754595325643,
+      "ann_geo_return": 0.06090591989371008,
+      "sharpe": 0.6419803477213195,
+      "max_drawdown": -0.3163745392825027
+    }
+  },
+  "validation": {
+    "1M-K2-EQ": {
+      "days": 2981,
+      "long_count_ok": true,
+      "short_count_ok": true,
+      "long_sum_ok": true,
+      "short_sum_ok": true,
+      "longs_carry_ge_shorts": true,
+      "longs_are_top_k": true,
+      "shorts_are_bottom_k": true,
+      "all_ok": true
+    },
+    "1M-K2-RANK": {
+      "days": 2981,
+      "long_count_ok": true,
+      "short_count_ok": true,
+      "long_sum_ok": true,
+      "short_sum_ok": true,
+      "longs_carry_ge_shorts": true,
+      "longs_are_top_k": true,
+      "shorts_are_bottom_k": true,
+      "all_ok": true
+    },
+    "1M-K2-PROP": {
+      "days": 2981,
+      "long_count_ok": true,
+      "short_count_ok": true,
+      "long_sum_ok": true,
+      "short_sum_ok": true,
+      "longs_carry_ge_shorts": true,
+      "longs_are_top_k": true,
+      "shorts_are_bottom_k": true,
+      "all_ok": true
+    },
+    "1M-K3-EQ": {
+      "days": 2981,
+      "long_count_ok": true,
+      "short_count_ok": true,
+      "long_sum_ok": true,
+      "short_sum_ok": true,
+      "longs_carry_ge_shorts": true,
+      "longs_are_top_k": true,
+      "shorts_are_bottom_k": true,
+      "all_ok": true
+    },
+    "1M-K3-RANK": {
+      "days": 2981,
+      "long_count_ok": true,
+      "short_count_ok": true,
+      "long_sum_ok": true,
+      "short_sum_ok": true,
+      "longs_carry_ge_shorts": true,
+      "longs_are_top_k": true,
+      "shorts_are_bottom_k": true,
+      "all_ok": true
+    },
+    "1M-K3-PROP": {
+      "days": 2981,
+      "long_count_ok": true,
+      "short_count_ok": true,
+      "long_sum_ok": true,
+      "short_sum_ok": true,
+      "longs_carry_ge_shorts": true,
+      "longs_are_top_k": true,
+      "shorts_are_bottom_k": true,
+      "all_ok": true
+    },
+    "3M-K2-EQ": {
+      "days": 2981,
+      "long_count_ok": true,
+      "short_count_ok": true,
+      "long_sum_ok": true,
+      "short_sum_ok": true,
+      "longs_carry_ge_shorts": true,
+      "longs_are_top_k": true,
+      "shorts_are_bottom_k": true,
+      "all_ok": true
+    },
+    "3M-K2-RANK": {
+      "days": 2981,
+      "long_count_ok": true,
+      "short_count_ok": true,
+      "long_sum_ok": true,
+      "short_sum_ok": true,
+      "longs_carry_ge_shorts": true,
+      "longs_are_top_k": true,
+      "shorts_are_bottom_k": true,
+      "all_ok": true
+    },
+    "3M-K2-PROP": {
+      "days": 2981,
+      "long_count_ok": true,
+      "short_count_ok": true,
+      "long_sum_ok": true,
+      "short_sum_ok": true,
+      "longs_carry_ge_shorts": true,
+      "longs_are_top_k": true,
+      "shorts_are_bottom_k": true,
+      "all_ok": true
+    },
+    "3M-K3-EQ": {
+      "days": 2981,
+      "long_count_ok": true,
+      "short_count_ok": true,
+      "long_sum_ok": true,
+      "short_sum_ok": true,
+      "longs_carry_ge_shorts": true,
+      "longs_are_top_k": true,
+      "shorts_are_bottom_k": true,
+      "all_ok": true
+    },
+    "3M-K3-RANK": {
+      "days": 2981,
+      "long_count_ok": true,
+      "short_count_ok": true,
+      "long_sum_ok": true,
+      "short_sum_ok": true,
+      "longs_carry_ge_shorts": true,
+      "longs_are_top_k": true,
+      "shorts_are_bottom_k": true,
+      "all_ok": true
+    },
+    "3M-K3-PROP": {
+      "days": 2981,
+      "long_count_ok": true,
+      "short_count_ok": true,
+      "long_sum_ok": true,
+      "short_sum_ok": true,
+      "longs_carry_ge_shorts": true,
+      "longs_are_top_k": true,
+      "shorts_are_bottom_k": true,
+      "all_ok": true
+    }
+  },
+  "max_abs_diff_returns": 2.220446049250313e-16,
+  "naive_negation_max_error": 0.0030304368334701515,
+  "baseline_zero_return_days": 0,
+  "log": [
+    "Loaded hw3.data.carry.FX.dly.xlsx sheet=Data rows=2981 1999-01-01..2010-06-04 layout_verified=True",
+    "Computed vs workbook returns: max abs diff = 2.220e-16; negating raw-quote returns would err by up to 0.00303",
+    "Weight validation passed for all 12 strategies on every day (counts, signs, +1/-1 sums, top/bottom-k).",
+    "Best baseline: 3M-K3-EQ (avg rank 1.333)",
+    "Part (c) candidate conditioning variable: AUD3M",
+    "Part (d) sample 2000-01-04..2010-06-04; best conditioned: AY3M-cond",
+    "Part (e) sample 2000-01-20..2010-06-04",
+    "Manual reconciliation 3M-K3-EQ 2008-10-24->2008-10-27: manual -0.0230153417 pipeline -0.0230153417"
+  ]
+}
